@@ -1,5 +1,6 @@
-#include <iostream>
 #pragma once
+
+
 
 class Parallelogram {
     
@@ -9,17 +10,14 @@ class Parallelogram {
 
 public:
 
-    Parallelogram();
-
-    Parallelogram(double a, double b, double sin);
-
-    ~Parallelogram() = default;
+    Parallelogram(double a, double b, double angle);
 
     double get_square();
 
     double get_perimetr();
 
     void print_info();
+
 
 
 

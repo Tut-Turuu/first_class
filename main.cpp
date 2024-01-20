@@ -4,7 +4,7 @@
 
 int main() {
 
-    Parallelogram abcd(10, 20, 0.5);
+    Parallelogram abcd(10, 20, 30);
 
     abcd.print_info();
 

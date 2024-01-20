@@ -1,11 +1,12 @@
 #include "first_class.hpp"
+#include <iostream>
+#include <cmath>
 
 
 
 
-Parallelogram::Parallelogram() : a(10), b(10), sin(1) {};
 
-Parallelogram::Parallelogram(double a, double b, double sin) : a(a), b(b), sin(sin) {};
+Parallelogram::Parallelogram(double a, double b, double angle) : a(a), b(b), sin(std::sin(angle*3.1415/360.0)) {};
 
 double Parallelogram::get_perimetr() {
     return (a+b)*2;
