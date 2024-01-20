@@ -14,3 +14,7 @@ double Parallelogram::get_perimetr() {
 double Parallelogram::get_square() {
     return a*b*sin;
 }
+
+void Parallelogram::print_info() {
+    std::cout << "perimetr: " << get_perimetr() << " square: " << get_square() << '\n';
+}

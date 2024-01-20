@@ -1,3 +1,4 @@
+#include <iostream>
 #pragma once
 
 class Parallelogram {
@@ -17,6 +18,9 @@ public:
     double get_square();
 
     double get_perimetr();
+
+    void print_info();
+
 
 
 };
